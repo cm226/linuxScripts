@@ -60,7 +60,7 @@
     </disk>
     <disk type='file' device='cdrom'>
       <driver name='qemu' type='raw'/>
-      <source file='/home/craig/Win10_22H2_EnglishInternational_x64v1.iso' index='2'/>
+      <source file='/tmp/Win10_22H2_EnglishInternational_x64v1.iso' index='2'/>
       <backingStore/>
       <target dev='sdb' bus='sata'/>
       <readonly/>
@@ -69,7 +69,7 @@
     </disk>
     <disk type='file' device='cdrom'>
       <driver name='qemu' type='raw'/>
-      <source file='/home/craig/virtio-win-0.1.262.iso' index='1'/>
+      <source file='/tmp/virtio-win-0.1.262.iso' index='1'/>
       <backingStore/>
       <target dev='sdc' bus='sata'/>
       <readonly/>

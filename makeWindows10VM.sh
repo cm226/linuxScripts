@@ -4,7 +4,7 @@ sudo apt install qemu-kvm bridge-utils virt-manager libosinfo-bin -y
 read -p "If you didnt have qemu already installed, you will now need to reboot, do that now. Enter to continue " -n1 -s
 
 if [ ! -f /home/craig/virtio-win-0.1.262.iso ]; then
-    echo "you will need to download the virtio iso for windows from https://github.com/virtio-win/virtio-win-pkg-scripts/blob/master/README.md and put then in your home dir"
+    echo "you will need to download the virtio iso for windows from https://github.com/virtio-win/virtio-win-pkg-scripts/blob/master/README.md and put them in /tmp"
 fi
 
 
