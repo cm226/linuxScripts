@@ -28,3 +28,5 @@ sudo apt install -y \
     syncthing
 
 snap install discord
+
+systemctl --user enable syncthing.service
